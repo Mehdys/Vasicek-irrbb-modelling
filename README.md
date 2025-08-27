@@ -7,26 +7,6 @@ This repository provides tools and notebooks for modelling Interest Rate Risk in
 - `Calibration_Vasicek.ipynb`: Jupyter notebook for calibrating the Vasicek model to interest rate data. It covers the steps to fit Vasicek parameters to historical rates, visualize the results, and analyze model performance.
 - `PortfeuilleSimplifié_2.ipynb`: Jupyter notebook demonstrating IRRBB analysis on a simplified portfolio. It includes portfolio construction, risk assessment, and simulation using the Vasicek framework.
 
-## Getting Started
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/Mehdys/vasicek-irrbb-modelling.git
-   ```
-
-2. **Install dependencies:**  
-   The notebooks use Python and common scientific libraries (NumPy, pandas, matplotlib, etc.).  
-   It’s recommended to use a virtual environment.
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Launch Jupyter Notebook:**
-   ```sh
-   jupyter notebook
-   ```
-   Open the notebooks in your browser and follow the instructions.
-
 ## Usage
 
 - Use `Calibration_Vasicek.ipynb` to understand and calibrate the Vasicek model for interest rates.
